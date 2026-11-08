@@ -1,0 +1,188 @@
+/* Header */
+
+header {
+  background-color: transparent;
+  padding: 16px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+header > .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logotipo-cabecalho img {
+  max-width: 200px;
+}
+
+header nav.menu-desktop ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 400px;
+  gap: 50px;
+}
+
+header nav.menu-desktop a {
+  color: var(--colorGray);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+header nav.menu-desktop a:hover {
+  color: var(--colorWhite);
+}
+
+/* Header Botões */
+
+
+header .btn ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+header .btn .btn-contato {
+  background-color: transparent;
+  border: none;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+header .btn .btn-entrar {
+  background-color: transparent;
+  border: 2px solid var(--colorWhite);
+  border-radius: 5px;
+  color: var(--colorWhite);
+  cursor: pointer;
+  width: 130px;
+  height: 40px;
+  transition: 0.3s;
+}
+
+header .btn .btn-entrar:hover {
+  background-color: var(--colorWhite);
+  color: var(--colorblack);
+}
+
+header .btn .btn-cadastre-se {
+  background-color: var(--colorWhite);
+  border: none;
+  border-radius: 5px;
+  color: var(--colorblack);
+  cursor: pointer;
+  width: 130px;
+  height: 40px;
+  transition: 0.5s;
+}
+
+header .btn .btn-cadastre-se:hover {
+  background-color: var(--colorBackground);
+  color: var(--colorWhite);
+  border: 2px solid var(--colorWhite);
+}
+
+
+ /*hero*/ 
+
+main section.hero {
+  background-color: var(--colorBody);
+  min-height: 100vh;
+}
+
+.hero > .interface {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  padding: 120px 2%;
+}
+
+main .hero img {
+  max-width: 500px;
+  margin-top: 100px;
+}
+
+main .txt-hero {
+  color: var(--colorWhite);
+  margin-top: 120px;
+}
+
+main .txt-hero p {
+  line-height: 1.6;
+  margin: 24px 0;
+}
+
+/* Botões Hero */
+
+.hero .txt-hero button {
+  width: 150px;
+  height: 35px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid var(--colorWhite);
+  margin-right: 15px;
+  color: var(--colorWhite);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.hero .txt-hero button:hover {
+  background-color: var(--colorWhite);
+  color: var(--colorblack);
+}
+
+/*Beneficios*/
+
+.beneficios > .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .txt-beneficios h1 {
+  margin: 24px 0;
+}
+
+.card-beneficios {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.card-beneficios > .Sindicos,
+.card-beneficios > .Moradores {
+  width: 400px;
+  height: 500px;
+  background-color: var(--ColorDarkGreen);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  border: 2px solid var(--ColorGreen);
+}
+
+.Sindicos img,
+.Moradores img {
+  margin-top: 30px;
+  background-color: var(--ColorGreen);
+  border-radius: 50%;
+  border: 5px solid var(--ColorGreen);
+}
+
+.card-beneficios h1 {
+  font-size: 1.2em;
+  color: var(--colorWhite);
+}
+
+.img-beneficios img {
+  margin-top: -100px;
+  width: 500px;
+  height: 750px;
+}
